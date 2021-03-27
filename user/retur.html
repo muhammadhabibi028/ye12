@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brasco Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <?php include_once("../user/navbar.php"); ?>
+    <!-- NAVBAR END -->
+
+    <!-- RETUR PEMBAYARAN --> 
+    <div class="retur-container">
+        <div class="retur-wrap">
+            <img src="img/retur.png">
+            <div class="form-wrap">
+                <p class="text">Jika ingin melakukan retur, silahkan isi form dibawah ini, pastikan kesalahan retur tidak terjadi pada custumer</p>
+                <form id="retur" action="retur-proses.php" method="GET">
+                    <div class="nama">
+                        <p class="nama-bank">Nomor Order :</p>
+                        <input class="form" name="nomor-order" type="text">
+                    </div>
+                    <div class="nama-account-bank">
+                            <p class="title">Alasan Retur :</p>
+                            <textarea class="form-alasan" name="alasan"></textarea>
+                    </div>
+                    <p class="bukti-transfer">Bukti Retur :</p>
+                    <div class="bukti-container">
+                            <img src="icon/bukti-upload.svg">
+                            <input class="bukti-form" name="bukti" type="file">
+                    </div>
+                    <input type="submit" class="retur-button" value="RETUR">
+                </form> 
+            </div>
+        </div>
+    </div>
+    <!-- RETUR PEMBAYARAN END --> 
+</body>
+</html>

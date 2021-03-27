@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brasco Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <?php include_once("navbar.php"); ?>
+    <!-- NAVBAR END -->
+
+    <!-- RETUR PEMBAYARAN --> 
+    <div class="retur-container">
+        <div class="retur-wrap">
+            <img src="img/survey.svg" height="375px" width="571px">
+            <div class="form-wrap">
+                <p class="text">Jika ingin melakukan retur, silahkan isi form dibawah ini, pastikan kesalahan retur tidak terjadi pada custumer</p>
+                <form id="survey" action="survey-proses.php" method="GET" style="border: 2px dashed grey; padding: 20px; box-sizing: border-box; border-radius: 6px;">
+                    <p class="survey-text">Apakah kamu puas menggunakan website kami?</p>
+                    <div class="radio-form">
+                        <div class="radio-content" style="margin-right: 30px;">
+                            <input class="radio-input" name="1" value="Puas" type="radio">
+                            <p class="radiotext">Puas</p>
+                        </div>
+                        <div class="radio-content">
+                                <input class="radio-input" name="1" value="Tidak" type="radio">
+                                <p class="radiotext">Tidak Puas</p>
+                        </div>
+                    </div>
+                    <p class="survey-text">Apakah kamu puas dengan pelayanan customer service kami?</p>
+                    <div class="radio-form">
+                        <div class="radio-content" style="margin-right: 30px;">
+                            <input class="radio-input" name="2" value="Puas" type="radio">
+                            <p class="radiotext">Puas</p>
+                        </div>
+                        <div class="radio-content">
+                                <input class="radio-input" name="2" value="Tidak" type="radio">
+                                <p class="radiotext">Tidak Puas</p>
+                        </div>
+                    </div>
+                    <p class="survey-text">Apakah website kami sulit untuk dimengerti dan digunakan?</p>
+                    <div class="radio-form">
+                        <div class="radio-content" style="margin-right: 30px;">
+                            <input class="radio-input" name="3" value="Sulit" type="radio">
+                            <p class="radiotext">Sulit</p>
+                        </div>
+                        <div class="radio-content">
+                                <input class="radio-input" name="3" value="Tidak" type="radio">
+                                <p class="radiotext">Tidak Sulit</p>
+                        </div>
+                    </div>
+                    <div class="nama-account-bank">
+                            <p class="title">Kritik dan Saran :</p>
+                            <textarea class="form-alasan" name="kritik-saran"></textarea>
+                    </div>
+                    <input type="submit" class="retur-button" value="SURVEY" style="width: 464px; border: none;">
+                </form> 
+            </div>
+        </div>
+    </div>
+    <!-- RETUR PEMBAYARAN END --> 
+</body>
+</html>

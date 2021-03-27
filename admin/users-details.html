@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brasco Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
+    <script src="../js/main.js"></script>
+</head>
+<body style="background: #EFF0F5;">
+    <?php include('../admin/navbar.php'); ?>
+
+    <!-- USERS DETAILS -->
+
+    <div class="admincontainer">
+        <!-- SIDEBAR -->
+        <?php include('../webadmin/sidebar.php'); ?>
+        <!-- SIDEBAR END -->
+
+        <!-- CONTENT -->
+        <div class="dashboardadmin" style="margin-top: 0;">
+            <div class="tabletable">
+                <div class="heading">
+                    <p class="headtext">User</p>
+                    <a href="#"><div class="hapusakun" style="display: flex; flex-direction: row; margin-top: 15px;">
+                    <img style="margin-right: 10px;" src="../icon/hapus-akun.svg">
+                    <p style="margin: 0;">Hapus Akun</p>
+                    </div></a>
+                </div>
+                <div class="tablewrap-users">
+                <div class="container-users">
+                    <div class="profile-head">
+                        <img src="../icon/profile.svg" height="85.25px" width="85.25px">
+                        <div class="text-head">
+                        <p class="nama-profile">Indra Gogon</p>
+                        <p class="status-profile">Member</p>
+                        </div>
+                    </div>
+                    <hr class="users-garis">
+                    <div class="profile-body">
+                        <table cellpadding="10">
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td>gogonimanuel@unpak.ac.id</td>
+                            </tr>
+                            <tr>
+                                <td>Nama</td>
+                                <td>:</td>
+                                <td>Gogon Imanuel</td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>:</td>
+                                <td>086726923442</td>
+                            </tr>
+                            <tr>
+                                <td>Password</td>
+                                <td>:</td>
+                                <td>************</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="orderhistory-users">
+                <p class="titleorder" style="font-size: 24px; font-weight: bold; margin-left: 20px;">Order History</p>
+                <div class="bawah-profile" style="width: 100%; margin: 0; padding: 0; background: white; margin-bottom: 30px;">
+                        <div class="bawah-wrap">
+                        <div class="kotak">
+                        <div class="order-wrap">
+                            <div class="atas">
+                                <table style="bakcground: grey;">
+                                    <tr>
+                                        <td><div class="pending" style="color: #6A6A6A; margin-right: 20px; width: 103.33px; height: 35px; background: #D1D1D1; border-radius: 8px; display: flex; justify-content: center; padding-top: 8px; box-sizing: border-box;">Pending</div></td>
+                                        <td>Order Number :</td>
+                                        <td style="font-weight: bold;">#3321</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="bawah">
+                                <div class="kiri">
+                                    <table style="width: 450px;">
+                                        <tr>
+                                            <td>31 Agustus 2018</td>
+                                            <td style="width: 75px;">-</td>
+                                            <td>IDR 725.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Courier</td>
+                                            <td style="width: 75px;">-</td>
+                                            <td>JNE</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nomor Resi</td>
+                                            <td style="width: 75px;">-</td>
+                                            <td>9389038NKNK</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="kanan">
+                                    <p class="title">Order</p>
+                                    <ul>
+                                        <li>Shirt Dress Stripe Light Grey</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT END -->
+    </div>
+
+    <!-- USERS DETAILS END -->
+
+</body>
+</html>

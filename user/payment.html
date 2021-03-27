@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brasco Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <?php include_once("../user/navbar.php"); ?>
+    <!-- NAVBAR END -->
+
+    <!-- FORM --> 
+    <div class="payment-wrap">
+    <div class="payment-container">
+        <div class="payment">
+            <form id="payment" action="payment-proses.php" method="GET">
+            <div class="selamat">
+                <p class="title">Selamat!</p>
+                <div class="text">
+                <p>Barang yang kamu pilih akan kami lanjutkan ke proses</p>
+                <p>pengiriman setelah anda melakukan pembayaran &</p>
+                <p>konfirmasi pembayaran.</p>
+                </div>
+            </div>
+            <div class="nama">
+                <p class="title">Nama :</p>
+                <input class="nama-form" name="nama" type="text">
+            </div>
+            <div class="telepon">
+                <p class="title">Telephone :</p>
+                <input class="telepon-form" name="telepon" type="number">
+            </div>
+            <div class="alamat">
+                    <p class="title">Alamat :</p>
+                    <textarea class="alamat-form" name="alamat"></textarea>
+            </div>
+            <div class="pengiriman">
+                <p class="title">Pengiriman :</p>
+                <div class="radio-form">
+                    <input class="JNE" name="pengiriman" type="radio" value="JNE">JNE</input>
+                    <input class="POS" name="pengiriman" type="radio" value="POS">POS</input>
+                </div>
+            </div>
+            <div class="product-summary">
+                <p class="title">Produk</p>
+                <div class="border">
+                    <img src="../img/product1.jpg" width="164.71px" height="127.67px">
+                    <div class="content">
+                    <p class="title">Product Title</p>
+                    <div class="ukuran">
+                        <p>Ukuran</p> <p class="titikdua">:</p> <p>L</p>
+                    </div>
+                    <div class="quantity">
+                        <p>Quantity</p> <p class="titikdua">:</p> <p>1</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="harga">
+                <div class="sub-total">
+                    <p>Sub Total</p><p>IDR 700.000</p>
+                </div>
+                <div class="ongkir">
+                    <p>Ongkos Kirim</p><p>IDR 25.000</p>
+                </div>
+                <div class="total">
+                    <p>Total</p><p>IDR 725.000</p>
+                </div>
+            </div>
+            <input type="submit" class="bayar" value="BAYAR">
+        </form>
+        </div>
+    </div>
+    </div>
+    <!-- FORM END --> 
+</body>
+</html>
