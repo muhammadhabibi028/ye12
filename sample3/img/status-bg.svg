@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="625.332" height="35" viewBox="0 0 625.332 35">
+  <g id="status" transform="translate(-357 -976)">
+    <g id="status-2" data-name="status" transform="translate(23 -1)">
+      <path id="Path_646" data-name="Path 646" d="M450.223,994.5H385.666" transform="translate(55.063)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="7"/>
+      <path id="Path_647" data-name="Path 647" d="M385.666,994.5h68.918" transform="translate(227.416)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="7"/>
+      <path id="Path_648" data-name="Path 648" d="M385.666,994.5h68.918" transform="translate(401.416)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="7"/>
+      <g id="status-3" data-name="status" transform="translate(481 409)" opacity="0.155">
+        <rect id="Rectangle_693" data-name="Rectangle 693" width="103.332" height="35" rx="8" transform="translate(201 568)" fill="#1ebc98"/>
+        <text id="Selesai" transform="translate(224.474 592)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">Selesai</tspan></text>
+      </g>
+      <g id="status-4" data-name="status" transform="translate(307 409)" opacity="0.155">
+        <rect id="Rectangle_693-2" data-name="Rectangle 693" width="103.332" height="35" rx="8" transform="translate(201 568)" fill="#4b4b4b"/>
+        <text id="Proses" transform="translate(225.474 592)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">Proses</tspan></text>
+      </g>
+      <g id="status-5" data-name="status" transform="translate(655 409)" opacity="0.155">
+        <path id="Path_645" data-name="Path 645" d="M8,0H95.332a8,8,0,0,1,8,8V27a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(201 568)" fill="#c71818"/>
+        <text id="Tolak" transform="translate(231.474 592)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">Tolak</tspan></text>
+      </g>
+      <g id="status-6" data-name="status" transform="translate(133 409)" opacity="0.15">
+        <rect id="Rectangle_693-3" data-name="Rectangle 693" width="103.332" height="35" rx="8" transform="translate(201 568)" fill="#d1d1d1"/>
+        <text id="Pending" transform="translate(219.474 592)" fill="#6a6a6a" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">Pending</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
